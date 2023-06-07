@@ -35,15 +35,15 @@ For example, I typed in `find -size +90k`. I expect the output to print all the 
 `find -mtime <modified time>: Searches for files based on their modification time using the -mtime option. For example, `find -mtime -7` can find files modified in the last 7 days:
 
 For example, here I put in `find -mtime -60`. I expect it to print out all the files that have been modified in the last 60 days.
-
-[!Image](Screenshot 2023-06-07 112125.png)
+  
+![Image](Screenshot 2023-06-07 112125.png)
+  
   
 We can see here that it printed out a bunch of files that have been modified in the last 60 days. There are more files that it printed out, but there were too many to be captured in the screenshot.
 
 If I look for the files modified in the last 30 days with `find -mtime -30`. 
   
-[!Image](Screenshot 2023-06-07 112626.png)
-
+![Image](Screenshot 2023-06-07 112626.png)
 Here no files are printed because no files have been modified in the last 30 days. So we know that these files have been modified sometime between the last 30-60 days. 
 
 That is it for our lab about some of the command-line options for `find`. I hope you learned some more about `find` from this tutorial!
