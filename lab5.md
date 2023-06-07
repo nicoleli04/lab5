@@ -1,4 +1,5 @@
-***Lab Report 5***
+**Lab Report 5**
+---
 
 For this lab, I will be going over an exploration of the command `find` similar to lab report 3 where I researched the command line options for `grep`. 
 
